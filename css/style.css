@@ -1,0 +1,25 @@
+.movie-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    margin: 5px;
+    width: 200px;
+}
+
+.login-page {
+    width: 860px;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

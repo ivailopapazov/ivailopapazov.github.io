@@ -1,0 +1,22 @@
+{
+  "name": "js-apps-modular-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "server": "cd server && node ./server.js",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions",
+    "deploy": "firebase deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "^2.2.1",
+    "lite-server": "^2.6.1",
+    "page": "^1.11.6"
+  }
+}
